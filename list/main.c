@@ -67,24 +67,18 @@ int main() {
 
 /***
  * Tests for linked list implementation.
- * We assume index starts from 0.
- * 
+ * ----------------------------------------
  * Add 2 to the front: 2
  * Add 1 to the front: 1 -> 2
  * Add 3 to the back: 1 -> 2 -> 3
-   * Add 4 to the back: 1 -> 2 -> 3 -> 4
- * Add 89 at index 3: 1 -> 2 -> 3 -> 89 -> 4
-   * Add 5 to the back: 1 -> 2 -> 3 -> 89 -> 4 -> 5
-   * Add 90 to the front: 90 -> 1 -> 2 -> 3 -> 89 -> 4 -> 5
-   * Add 21 at index 5: 90 -> 1 -> 2 -> 3 -> 89 -> 21 -> 4 -> 5
+ * Add 89 at index 3: 1 -> 2 -> 3 -> 89
  * 
- * Removed 90 from the front: 1 -> 2 -> 3 -> 89 -> 21 -> 4 -> 5
- * Removed 89 from the index, 3: 1 -> 2 -> 3 -> 21 -> 4 -> 5
- * Removed 5 from the back: 1 -> 2 -> 3 -> 21 -> 4
+ * Removed 1 from the front: 2 -> 3 -> 89
+ * Removed 89 from the index, 3: 2 -> 3
+ * Removed 3 from the back: 2
  * 
- * Length of the list is: 5.
+ * Length of the list is: 1.
  * 10 is not in the list.
- * Element at index 2 is: 3.
- * Element 2 is at index: 1.
- * 
+ * Element at index 2 is: 2. 
+ * Element 2 is at index: 0. 
 */
